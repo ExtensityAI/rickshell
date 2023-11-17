@@ -1,0 +1,24 @@
+{
+    "version": "0.0.1",
+    "name": "ExtensityAI/rickshell",
+    "description": "Shell Style replies like in Rick and Morty",
+    "expressions": [
+        {
+            "module": "src/styles",
+            "type": "RickFunction"
+        },
+        {
+            "module": "src/styles",
+            "type": "RickConversation"
+        },
+        {
+            "module": "src/styles",
+            "type": "RetrievalAugmentedRickConversation"
+        }
+    ],
+    "run": {
+        "module": "src/styles",
+        "type": "RickConversation"
+    },
+    "dependencies": []
+}
