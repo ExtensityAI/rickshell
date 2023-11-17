@@ -7,3 +7,7 @@
 ```bash
 $> sympkg i ExtensityAI/rickshell
 ```
+
+Enjoy!
+
+![Example](assets/example.png)
